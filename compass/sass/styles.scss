@@ -1,0 +1,114 @@
+//  @import "compass/utilities";
+//  @import "compass/css3";
+
+// // CONFIGS
+// // -------------------------------
+// @import "configs/variables";
+
+// // LAYOUT
+// // -------------------------------
+// @import "layout/layout";
+// @import "layout/header";
+// @import "layout/footer";
+
+// // VIEWS
+// // -------------------------------
+// @import "views/home";
+// @import "views/subscribe";
+// @import "views/choices";
+// @import "views/delivery";
+// @import "views/payment";
+// @import "views/account";
+
+body {
+	background-image: url("../../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.main-wrapper {
+	max-width: 700px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+
+
+	.logo-wrapper {
+		background-color: #f5f8fa;
+		
+		.logo {
+			max-width: 100%;
+		}
+	}
+
+	.logo-wrapper-hillary {
+		background-color: #00a9e0;
+		border: 0;
+
+		.logo {
+			max-width: 100%;
+
+		}
+	}
+	
+	.tweet-wrapper {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		
+		.profile-img {
+			height: 45px;
+			width: 45px;
+			border-radius: 5px;
+		}
+
+		.fullname {
+			color: #292f33;
+			font-weight: bold;
+			font-size: 14px;
+		}
+
+		.user-details {
+			color: #8899a6;
+			font-size: 13px;
+		}
+
+		.tweet-text {
+			margin-top: 0;
+			margin-bottom: 0;
+			font-size: 16px;
+			font-weight: 400;
+		}
+
+		.icon-row {
+			color: #aab8c2;
+			font-size: 12px;
+			font-weight: bold;
+			margin-top: 7px;
+
+			.icon-group {
+				margin-right: 20px;
+
+				.icon-count {
+					margin-left: 5px;
+				}
+			}
+
+
+		}
+
+
+
+	}
+}
+
+
+
+.tweet-wrapper:hover {
+	background-color: #f5f8fa;
+}
+
+
+

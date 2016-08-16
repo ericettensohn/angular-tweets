@@ -1,0 +1,34 @@
+
+<div class="container main-wrapper">
+	<ul class="list-group">
+	<li class="logo-wrapper-hillary list-group-item">
+		<img class="logo" src="../../img/hillary-logo.png">
+	</li>
+
+	<li class="tweet-wrapper list-group-item col-sm-12" ng-repeat="tweet in tweets">
+		<div class="row">
+			<div class="col-sm-1">
+				<a href="http://www.twitter.com/{{tweet.user.screen_name}}">
+					<img class="profile-img" ng-src="{{tweet.user.profile_image_url}}">
+				</a>
+			</div>
+			<div class="col-sm-11">
+				<span class="fullname">{{tweet.user.name}} </span> <span class="user-details"> @{{tweet.user.screen_name}} - {{tweet.created_at}}</span>
+				<p class="tweet-text">{{tweet.text}}</p>
+				
+				<div class="icon-row col-sm-4">
+					<span class="icon-group">
+						<span class="glyphicon glyphicon-retweet" aria-hidden="true"></span>
+						<span class="icon-count"> {{tweet.retweet_count}}</span>
+					</span>
+					
+					<span class="icon-group">
+						<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+						<span class="icon-count"> {{tweet.favorite_count}}</span>
+					</span>
+				</div>
+			</div>
+		</div>
+	</li>
+	</ul>
+</div> <!-- main wrapper -->

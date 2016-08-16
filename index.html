@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html ng-app="tweetApp">
+<head>
+	<title></title>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+	<!-- angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+	<!-- angular packages -->
+	<script src="https://code.angularjs.org/1.5.8/angular-route.min.js"></script>
+	<script src="https://code.angularjs.org/1.5.8/angular-cookies.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-animate.min.js"></script>
+
+	<!-- bootstrap js -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- custom js -->
+
+	<script type="text/javascript" src="js/tweetModule.js"></script>
+	<script type="text/javascript" src="js/tweetController.js"></script>
+	<script type="text/javascript" src="js/tweets.js"></script>
+
+	<script type="text/javascript" src="js/homeController.js"></script>
+<!-- 	<script type="text/javascript" src="js/trumpController.js"></script> -->
+	<script type="text/javascript" src="js/hillaryController.js"></script>
+
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="public/stylesheets/styles.css">
+</head>
+<body ng-controller="homeController">
+	
+	<div ng-view></div>
+
+<!-- 	<div class="container main-wrapper">
+		<ul class="list-group">
+		<li class="logo-wrapper list-group-item">
+			<img class="logo" src="../../img/logo.png">
+		</li>
+
+		<li class="tweet-wrapper list-group-item col-sm-12" ng-repeat="tweet in tweets">
+			<div class="row">
+				<div class="col-sm-1">
+					<a href="http://www.twitter.com/{{tweet.user.screen_name}}">
+						<img class="profile-img" ng-src="{{tweet.user.profile_image_url}}">
+					</a>
+				</div>
+				<div class="col-sm-11">
+					<span class="fullname">{{tweet.user.name}} </span> <span class="user-details"> @{{tweet.user.screen_name}} - {{tweet.created_at}}</span>
+					<p class="tweet-text">{{tweet.text}}</p>
+					
+					<div class="icon-row col-sm-4">
+						<span class="icon-group">
+							<span class="glyphicon glyphicon-retweet" aria-hidden="true"></span>
+							<span class="icon-count"> {{tweet.retweet_count}}</span>
+						</span>
+						
+						<span class="icon-group">
+							<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+							<span class="icon-count"> {{tweet.favorite_count}}</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</li>
+		</ul>
+	</div> main wrapper -->
+
+</body>
+</html>

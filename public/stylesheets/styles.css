@@ -1,0 +1,81 @@
+/* line 23, ../../compass/sass/styles.scss */
+body {
+  background-image: url("../../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* line 31, ../../compass/sass/styles.scss */
+.main-wrapper {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 39, ../../compass/sass/styles.scss */
+.main-wrapper .logo-wrapper {
+  background-color: #f5f8fa;
+}
+/* line 42, ../../compass/sass/styles.scss */
+.main-wrapper .logo-wrapper .logo {
+  max-width: 100%;
+}
+/* line 47, ../../compass/sass/styles.scss */
+.main-wrapper .logo-wrapper-hillary {
+  background-color: #00a9e0;
+  border: 0;
+}
+/* line 51, ../../compass/sass/styles.scss */
+.main-wrapper .logo-wrapper-hillary .logo {
+  max-width: 100%;
+}
+/* line 57, ../../compass/sass/styles.scss */
+.main-wrapper .tweet-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 61, ../../compass/sass/styles.scss */
+.main-wrapper .tweet-wrapper .profile-img {
+  height: 45px;
+  width: 45px;
+  border-radius: 5px;
+}
+/* line 67, ../../compass/sass/styles.scss */
+.main-wrapper .tweet-wrapper .fullname {
+  color: #292f33;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 73, ../../compass/sass/styles.scss */
+.main-wrapper .tweet-wrapper .user-details {
+  color: #8899a6;
+  font-size: 13px;
+}
+/* line 78, ../../compass/sass/styles.scss */
+.main-wrapper .tweet-wrapper .tweet-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* line 85, ../../compass/sass/styles.scss */
+.main-wrapper .tweet-wrapper .icon-row {
+  color: #aab8c2;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+/* line 91, ../../compass/sass/styles.scss */
+.main-wrapper .tweet-wrapper .icon-row .icon-group {
+  margin-right: 20px;
+}
+/* line 94, ../../compass/sass/styles.scss */
+.main-wrapper .tweet-wrapper .icon-row .icon-group .icon-count {
+  margin-left: 5px;
+}
+
+/* line 109, ../../compass/sass/styles.scss */
+.tweet-wrapper:hover {
+  background-color: #f5f8fa;
+}

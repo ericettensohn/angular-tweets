@@ -27,6 +27,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	text-align: center;
 }
 
 @keyframes slideOutLeft {
@@ -39,13 +40,18 @@ body {
 }
 
 .ng-enter { 
-	animation: slideInRight 0.5s both ease-in; 
+	animation: slideInRight 1s both ease-in; 
 	z-index: 8888; 
 }
 
 .ng-leave {
-	animation: slideOutLeft 0.5s both ease-in; 
+	animation: slideOutLeft 1s both ease-in; 
 	z-index: 9999; 
+}
+
+.menu {
+	width: 200px;
+	margin-top: 30px;
 }
 
 
@@ -54,6 +60,7 @@ body {
 	margin: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	text-align: left;
 
 
 
